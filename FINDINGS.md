@@ -71,6 +71,11 @@ Stack: `@copilotkit/react-core`/`react-ui`/`runtime` 1.86.0 (declared ^1.86.0), 
 - **Result:** on the quickstart agent, "Send an email to bob@example.com saying hi." gets a text reply and no approval card, every run.
 - **Confirmed by harness:** on an agent with `AGUIToolset` (the Frontend Tools agent) and a prompt naming the tool, the "User approval required" card appears.
 
+### [Reasoning](https://docs.copilotkit.ai/google-adk/generative-ui/reasoning) / [Reasoning Messages](https://docs.copilotkit.ai/google-adk/custom-look-and-feel/reasoning-messages)
+**#28 No reasoning card appears on Google ADK: both pages show no ADK agent and no way to make Gemini emit reasoning.**
+- **Doc:** "Some models (`gpt-6-luna`, Anthropic's thinking variants) emit reasoning tokens" / "No configuration is needed; if your model emits reasoning tokens, the card appears automatically"; Reasoning Messages: "The only requirement is connecting your agent to CopilotKit; no extra props or configuration needed". Only frontend code; no ADK agent, no Gemini thinking setting (`include_thoughts`).
+- **Result:** on the quickstart ADK agent served by Gemini (pool log: `200 model=gemini-3.8-flash`), "Think step by step: what is 17 times 23?" gets a plain markdown answer; no "Thinking…" / "Thought for X seconds" card on either page (probes `reasoning`, `reasoning-messages`, 2026-11-12).
+
 ## Minor notes
 - **#4** [Components](https://docs.copilotkit.ai/google-adk/generative-ui/components) / [Standard catalog](https://docs.copilotkit.ai/google-adk/generative-ui/components/standard-catalog): the doc calls `maplibre-gl` optional, but importing `@copilotkit/react-core/v2/generative-ui` without it fails with `Module not found: Can't resolve 'maplibre-gl'`; `npm install maplibre-gl` fixes it.
 - **#5** [State Streaming](https://docs.copilotkit.ai/google-adk/shared-state/streaming) / [HITL Overview](https://docs.copilotkit.ai/google-adk/human-in-the-loop): the agent imports `agents.shared_chat`; the page links the showcase `shared_chat.py` (has `get_model` and `stop_on_terminal_text`), which itself imports the unpublished `agents._header_forwarding` (drop that import to run it). Blocker on Fixed Schema and Sub-agents, which don't link it (Dev blockers).
