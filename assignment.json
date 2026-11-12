@@ -1,0 +1,1204 @@
+{
+ "framework": "Google ADK",
+ "ui": "react",
+ "repo": "GoogleADK-React",
+ "docBase": "https://docs.copilotkit.ai/google-adk/",
+ "versions": {
+  "@copilotkit/react-core": "1.86.0",
+  "@copilotkit/react-ui": "1.86.0",
+  "@copilotkit/runtime": "1.86.0",
+  "@ag-ui/client": "1.0.2",
+  "next": "16.4.6",
+  "react": "19.3.0",
+  "google-adk": "2.14.0",
+  "ag-ui-adk": "0.12.0",
+  "google-genai": "2.34.0",
+  "fastapi": "0.162.4",
+  "uvicorn": "0.54.0",
+  "maplibre-gl": "5.24.0"
+ },
+ "testedContext": {
+  "os": "Microsoft Windows 11 Pro",
+  "packageManager": "npm 12 (Node 26.7.0)"
+ },
+ "report": {
+  "style": "team",
+  "h1": "Google ADK",
+  "title": "Google ADK",
+  "clipsToUpload": false,
+  "columns": [
+   "Page/Section",
+   "Google ADK"
+  ],
+  "resultColumn": 1,
+  "guidesHeading": "React Guides",
+  "quickstartHeading": "Quickstarts",
+  "quickstartHeader": [
+   "Page/Section",
+   "Google ADK"
+  ]
+ },
+ "sections": [
+  {
+   "label": "Basics",
+   "cells": [
+    "Section"
+   ]
+  },
+  {
+   "label": "Chat",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Prebuilt Components",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Custom Look and Feel",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Chat​",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Threads",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Basics​",
+   "cells": [
+    "Section"
+   ]
+  },
+  {
+   "label": "Generative UI",
+   "cells": [
+    "Section"
+   ]
+  },
+  {
+   "label": "Controlled",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Declarative",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Components and surfaces",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "A2UI",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Declarative​",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Open-ended",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Interactivity",
+   "cells": [
+    "Section"
+   ]
+  },
+  {
+   "label": "Shared state",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Human-in-the-loop",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Interactivity​",
+   "cells": [
+    "Section"
+   ]
+  },
+  {
+   "label": "Agent capabilities",
+   "cells": [
+    "Section"
+   ]
+  },
+  {
+   "label": "Google ADK",
+   "cells": [
+    "Sub section"
+   ]
+  },
+  {
+   "label": "Agent capabilities​",
+   "cells": [
+    "Section"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "id": "quickstart",
+   "label": "Quickstart",
+   "kind": "quickstart",
+   "group": null,
+   "child": false,
+   "docPath": "quickstart",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [
+    1,
+    2
+   ],
+   "notes": [
+    "Note: create-next-app@latest turns on cacheComponents, so the CopilotKit provider logs an \"unstable value randomUUID()\" error on every page (and blocks some pages fully)"
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-01-Quickstart",
+     "loom": "https://www.loom.com/share/211f4029153644998d43dd07cd580879"
+    }
+   ]
+  },
+  {
+   "id": "copilot-chat",
+   "label": "CopilotChat",
+   "kind": "guide",
+   "group": "Prebuilt Components",
+   "child": true,
+   "docPath": "prebuilt-components/chat",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [
+    14
+   ],
+   "notes": [
+    "Note: useAgenticChatSuggestions() comes from ./suggestions, a file the page never shows"
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-02-CopilotChat",
+     "loom": "https://www.loom.com/share/885b28e8367f4dc8870f6c451dd1e516"
+    }
+   ]
+  },
+  {
+   "id": "copilot-sidebar",
+   "label": "CopilotSidebar",
+   "kind": "guide",
+   "group": "Prebuilt Components",
+   "child": true,
+   "docPath": "prebuilt-components/sidebar",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [
+    15
+   ],
+   "notes": [
+    "Note: MainContent and Suggestions are used but never shown"
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-03-CopilotSidebar",
+     "loom": "https://www.loom.com/share/f39d017fa43b45dc90a2089f21038de1"
+    }
+   ]
+  },
+  {
+   "id": "copilot-popup",
+   "label": "CopilotPopup",
+   "kind": "guide",
+   "group": "Prebuilt Components",
+   "child": true,
+   "docPath": "prebuilt-components/popup",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-04-CopilotPopup",
+     "loom": "https://www.loom.com/share/fc6e93d5ba1d4ea4af22640bab00aba0"
+    }
+   ]
+  },
+  {
+   "id": "chat-controls",
+   "label": "Open, close, and feedback",
+   "kind": "guide",
+   "group": "Prebuilt Components",
+   "child": true,
+   "docPath": "prebuilt-components/chat-controls",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [
+    16
+   ],
+   "notes": [
+    "Note: the feedback snippet calls `analytics`, which is never defined."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-05-ChatControls",
+     "loom": "https://www.loom.com/share/69cf3a3f360b4e0d91188d7bb9f38ca0"
+    }
+   ]
+  },
+  {
+   "id": "css-customization",
+   "label": "CSS Customization",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": true,
+   "docPath": "custom-look-and-feel/css",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-06-CssCustomization",
+     "loom": "https://www.loom.com/share/ab6d5c044ec548628e6d66b3e650530d"
+    }
+   ]
+  },
+  {
+   "id": "slots",
+   "label": "Slots (Subcomponents)",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": true,
+   "docPath": "custom-look-and-feel/slots",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-07-Slots",
+     "loom": "https://www.loom.com/share/b4ad213dd481483bbc5921b2bb93e3e0"
+    }
+   ]
+  },
+  {
+   "id": "markdown-rendering",
+   "label": "Markdown Rendering",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": true,
+   "docPath": "custom-look-and-feel/markdown",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-08-MarkdownRendering",
+     "loom": "https://www.loom.com/share/cfbf107d37f5423eb09faec8f65a3226"
+    }
+   ]
+  },
+  {
+   "id": "headless-ui",
+   "label": "Headless UI",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": true,
+   "docPath": "custom-look-and-feel/headless-ui",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    1,
+    17
+   ],
+   "notes": [
+    "Issue: following the quickstart setup, the page dies with a full-page \"Blocking Route\" error (unstable value randomUUID() in a Client Component)"
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-09-HeadlessUi",
+     "loom": "https://www.loom.com/share/6aac17b5f6c043b5918400b9fe6647c1"
+    }
+   ]
+  },
+  {
+   "id": "reasoning-messages",
+   "label": "Reasoning Messages",
+   "kind": "guide",
+   "group": "Custom Look and Feel",
+   "child": true,
+   "docPath": "custom-look-and-feel/reasoning-messages",
+   "reachable": "sidebar",
+   "status": "N/A",
+   "findings": [],
+   "notes": [
+    "Note: needs a model that emits reasoning; not tested while the Gemini quota is exhausted"
+   ],
+   "block": null,
+   "links": []
+  },
+  {
+   "id": "multimodal-attachments",
+   "label": "Multimodal Attachments",
+   "kind": "guide",
+   "group": "Chat​",
+   "child": true,
+   "docPath": "multimodal-attachments",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-20-MultimodalAttachments",
+     "loom": "https://www.loom.com/share/b2461c4f31b14044b953c4c1971205a8"
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "label": "Voice",
+   "kind": "guide",
+   "group": "Chat​",
+   "child": true,
+   "docPath": "voice",
+   "reachable": "sidebar",
+   "status": "N/A",
+   "findings": [],
+   "notes": [
+    "Note: needs Gemini plus a transcription key; not tested yet"
+   ],
+   "block": null,
+   "links": []
+  },
+  {
+   "id": "reasoning",
+   "label": "Reasoning",
+   "kind": "guide",
+   "group": "Chat​",
+   "child": true,
+   "docPath": "generative-ui/reasoning",
+   "reachable": "sidebar",
+   "status": "N/A",
+   "findings": [],
+   "notes": [
+    "Note: needs a model that emits reasoning; not tested while the Gemini quota is exhausted"
+   ],
+   "block": null,
+   "links": []
+  },
+  {
+   "id": "threads-drawer",
+   "label": "Threads Drawer",
+   "kind": "guide",
+   "group": "Threads",
+   "child": true,
+   "docPath": "prebuilt-components/copilot-threads-drawer",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-23-ThreadsDrawer",
+     "loom": "https://www.loom.com/share/631563619a054e7bb67a25d8164a3fb8"
+    }
+   ]
+  },
+  {
+   "id": "headless-threads",
+   "label": "Headless Threads",
+   "kind": "guide",
+   "group": "Threads",
+   "child": true,
+   "docPath": "headless-threads",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    25
+   ],
+   "notes": [
+    "Issue: useThreads uses agent \"my-agent\" but CopilotChat runs on \"default\", so the thread list stays empty, and ThreadSidebar never calls onSelectThread, so no thread can be opened."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-24-HeadlessThreads",
+     "loom": "https://www.loom.com/share/f3a128e225c841cd81ffbc9238b08a1a"
+    }
+   ]
+  },
+  {
+   "id": "frontend-tools",
+   "label": "Frontend-tools",
+   "kind": "guide",
+   "group": "Basics​",
+   "child": false,
+   "docPath": "frontend-tools",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-25-FrontendTools",
+     "loom": "https://www.loom.com/share/14daaaba3ad64c1db516f9427a6dc9cf"
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-tool-based",
+   "label": "Components as Tools",
+   "kind": "guide",
+   "group": "Controlled",
+   "child": true,
+   "docPath": "generative-ui/tool-based",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-39-GenUiToolBased",
+     "loom": "https://www.loom.com/share/ea1c1f28538c40f384a99fb3546da78c"
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-tool-rendering",
+   "label": "Tool Call Rendering",
+   "kind": "guide",
+   "group": "Controlled",
+   "child": true,
+   "docPath": "generative-ui/tool-rendering",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-40-GenUiToolRendering",
+     "loom": "https://www.loom.com/share/fd141d2d9ed94113aa278730bff15417"
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-state-rendering",
+   "label": "State Rendering",
+   "kind": "guide",
+   "group": "Controlled",
+   "child": true,
+   "docPath": "generative-ui/state-rendering",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [
+    18
+   ],
+   "notes": [
+    "Note: DemoLayout is used but never shown"
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-41-GenUiStateRendering",
+     "loom": "https://www.loom.com/share/7d5c752629de4c39b78a930bc7ed4e30"
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-components",
+   "label": "Components and surfaces",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": true,
+   "docPath": "generative-ui/components",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    3,
+    4
+   ],
+   "notes": [
+    "Issue: the page has no Google ADK backend (only TanStack AI / OpenAI); with the ADK agent the reply is plain text and no component renders."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-10-GenUiComponents",
+     "loom": "https://www.loom.com/share/94963ff02b1845409766e6b31b0e027e"
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-surfaces",
+   "label": "Surfaces",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": true,
+   "docPath": "generative-ui/components/surfaces",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    3,
+    4
+   ],
+   "notes": [
+    "Issue: no Google ADK backend code; the agent can't see the products and no surface renders."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-11-GenUiSurfaces",
+     "loom": "https://www.loom.com/share/4e5a9cfe530747b8915335e6e97cc00b"
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-catalogs",
+   "label": "Catalogs",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": true,
+   "docPath": "generative-ui/components/catalogs",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    3,
+    4
+   ],
+   "notes": [
+    "Issue: no Google ADK backend; the agent answers on its own and the catalog's ProductCard never renders."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-12-GenUiCatalogs",
+     "loom": "https://www.loom.com/share/e00cec9de7b643478c15c85f62f09c70"
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-standard-catalog",
+   "label": "Standard catalog",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": true,
+   "docPath": "generative-ui/components/standard-catalog",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    3,
+    4
+   ],
+   "notes": [
+    "Issue: no Google ADK backend; the agent answers in text and no catalog component renders."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-13-GenUiStandardCatalog",
+     "loom": "https://www.loom.com/share/5f093e5b95ec4b44805ed1932f682427"
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-state-actions",
+   "label": "State and actions",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": true,
+   "docPath": "generative-ui/components/state-and-actions",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    3,
+    4
+   ],
+   "notes": [
+    "Issue: no Google ADK backend; the agent answers in text, with no catalog component, state or actions."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-14-GenUiStateActions",
+     "loom": "https://www.loom.com/share/c4a60e3289ad496fb2007c566caa6582"
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-theming",
+   "label": "Theming",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": true,
+   "docPath": "generative-ui/components/theming",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    3,
+    4
+   ],
+   "notes": [
+    "Issue: no Google ADK backend; the agent answers in text and no themed component renders."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-15-GenUiTheming",
+     "loom": "https://www.loom.com/share/71ce33f2730341198105f39ec4260552"
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-transports",
+   "label": "Transports",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": true,
+   "docPath": "generative-ui/components/transports",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    3,
+    19
+   ],
+   "notes": [
+    "Issue: no Google ADK agent code in this section (agent-side steps cover only the built-in agent and LangGraph); the agent replies in text and no generative UI is streamed or rendered."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-16-GenUiTransports",
+     "loom": "https://www.loom.com/share/8a0e4f4462b64021bb6357a9700519e1"
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-markdown-mode",
+   "label": "Markdown mode",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": true,
+   "docPath": "generative-ui/components/markdown-mode",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    3,
+    19
+   ],
+   "notes": [
+    "Issue: no Google ADK agent code in this section (agent-side steps cover only the built-in agent and LangGraph); the agent replies in text and no generative UI is rendered."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-17-GenUiMarkdownMode",
+     "loom": "https://www.loom.com/share/5bd0c341889b4c3695b035d3225a402a"
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-from-a2ui",
+   "label": "Adopt from A2UI",
+   "kind": "guide",
+   "group": "Components and surfaces",
+   "child": true,
+   "docPath": "generative-ui/components/from-a2ui",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    3,
+    4
+   ],
+   "notes": [
+    "Issue: no Google ADK backend; the agent answers in text and the Airport/Arrow components never render (their renderers are never shown)."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-18-GenUiFromA2ui",
+     "loom": "https://www.loom.com/share/6fb6ff56e06b4365823a4f5b1a68eae9"
+    }
+   ]
+  },
+  {
+   "id": "a2ui",
+   "label": "A2UI",
+   "kind": "guide",
+   "group": "A2UI",
+   "child": true,
+   "docPath": "generative-ui/a2ui",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    6
+   ],
+   "notes": [
+    "Issue: the page only shows fragments: myCatalog and myAgent are never defined, and there is no Google ADK agent code"
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-26-A2ui",
+     "loom": "https://www.loom.com/share/6b2efe36fbdc42e4a9f2b33b9128d87e"
+    }
+   ]
+  },
+  {
+   "id": "a2ui-dynamic-schema",
+   "label": "Dynamic Schema A2UI",
+   "kind": "guide",
+   "group": "A2UI",
+   "child": true,
+   "docPath": "generative-ui/a2ui/dynamic-schema",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    7
+   ],
+   "notes": [
+    "Issue: the Code tab's page.tsx imports ./chat and renderers.tsx imports ../_components/badge and button, none of them shown; it fails with Module not found: Can't resolve './chat'"
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-27-A2uiDynamicSchema",
+     "loom": "https://www.loom.com/share/5400a87b5cc74015a6f03b398130f587"
+    }
+   ]
+  },
+  {
+   "id": "a2ui-fixed-schema",
+   "label": "Fixed Schema A2UI",
+   "kind": "guide",
+   "group": "A2UI",
+   "child": true,
+   "docPath": "generative-ui/a2ui/fixed-schema",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    5,
+    8
+   ],
+   "notes": [
+    "Issue: the Code tab imports ./chat and ../_components/card, badge, button, separator (never shown), and the agent imports agents.shared_chat (never shown). With those filled in, the flight card renders but the airports, airline and price stay empty."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-28-A2uiFixedSchema",
+     "loom": "https://www.loom.com/share/f3e3981a5be84b4b88b9edd85e6221b7"
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-json-render",
+   "label": "JSON Render",
+   "kind": "guide",
+   "group": "Declarative​",
+   "child": true,
+   "docPath": "generative-ui/json-render",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-42-GenUiJsonRender",
+     "loom": "https://www.loom.com/share/7e4ddf76253849798c94c1d068ac7d36"
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-hashbrown",
+   "label": "Hashbrown",
+   "kind": "guide",
+   "group": "Declarative​",
+   "child": true,
+   "docPath": "generative-ui/hashbrown",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    26
+   ],
+   "notes": [
+    "Issue: the Code tab's agent is mounted in registry.py and the page imports ./chat, ./types and ./chart-config, none shown; with those filled in, no dashboard renders."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-43-GenUiHashbrown",
+     "loom": "https://www.loom.com/share/e9cdf5aa2e014cdfbb43421ba1e566e4"
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-mcp-apps",
+   "label": "MCP Apps",
+   "kind": "guide",
+   "group": "Open-ended",
+   "child": true,
+   "docPath": "generative-ui/mcp-apps",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    27
+   ],
+   "notes": [
+    "Issue: the MCP server URL https://mcp.excalidraw.com redirects to /mcp, tool discovery fails (\"unexpected redirect\") and the agent says the Excalidraw tool is not available."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-44-GenUiMcpApps",
+     "loom": "https://www.loom.com/share/4fb25d59f0d948bd9a22df7e160c9f31"
+    }
+   ]
+  },
+  {
+   "id": "gen-ui-open-gen-ui",
+   "label": "Open Generative UI",
+   "kind": "guide",
+   "group": "Open-ended",
+   "child": true,
+   "docPath": "generative-ui/open-generative-ui",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-45-GenUiOpenGenUi",
+     "loom": "https://www.loom.com/share/858ac16d7cdc4a87960898822f7781ba"
+    }
+   ]
+  },
+  {
+   "id": "shared-state",
+   "label": "Shared State",
+   "kind": "guide",
+   "group": "Shared state",
+   "child": true,
+   "docPath": "shared-state",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    1,
+    9
+   ],
+   "notes": [
+    "Issue: the page dies with the quickstart's \"Blocking Route\" randomUUID() error; also get_model, set_notes, _inject_preferences and _INSTRUCTION are never shown"
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-29-SharedState",
+     "loom": "https://www.loom.com/share/61c3d22b493744a28a292428396d0753"
+    }
+   ]
+  },
+  {
+   "id": "shared-state-rendering-in-app",
+   "label": "Render agent state in your app",
+   "kind": "guide",
+   "group": "Shared state",
+   "child": true,
+   "docPath": "shared-state/rendering-in-app",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [
+    13
+   ],
+   "notes": [
+    "Note: Canvas.tsx uses useEffect but has no \"use client\"; works once it is added."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-30-SharedStateRenderingInApp",
+     "loom": "https://www.loom.com/share/e5e1f5ab143742a089ade904585d98b0"
+    }
+   ]
+  },
+  {
+   "id": "shared-state-streaming",
+   "label": "State Streaming",
+   "kind": "guide",
+   "group": "Shared state",
+   "child": true,
+   "docPath": "shared-state/streaming",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [
+    5
+   ],
+   "notes": [
+    "Note: the agent imports agents.shared_chat; the page links the showcase file, which needs an unpublished agents._header_forwarding import removed"
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-31-SharedStateStreaming",
+     "loom": "https://www.loom.com/share/53a23967b53a4f08acebd1017dcfed90"
+    }
+   ]
+  },
+  {
+   "id": "shared-state-agent-readonly",
+   "label": "Agent Read-Only Context",
+   "kind": "guide",
+   "group": "Shared state",
+   "child": true,
+   "docPath": "shared-state/agent-readonly",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    10
+   ],
+   "notes": [
+    "Issue: page.tsx imports ./demo-layout and ./suggestions, never shown; it fails with Module not found: Can't resolve './demo-layout'"
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-32-SharedStateAgentReadonly",
+     "loom": "https://www.loom.com/share/a1706a748efa4eb0ac4225153d490a29"
+    }
+   ]
+  },
+  {
+   "id": "hitl",
+   "label": "HITL Overview",
+   "kind": "guide",
+   "group": "Human-in-the-loop",
+   "child": true,
+   "docPath": "human-in-the-loop",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [
+    5,
+    11
+   ],
+   "notes": [
+    "Note: works with the Code tab files. The step snippet of page.tsx is cut off, the step agent calls generate_task_steps instead of book_call, and the linked shared_chat.py needs its _header_forwarding import removed"
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-33-Hitl",
+     "loom": "https://www.loom.com/share/9fd718ba8b6a4aab938be1dd863ad743"
+    }
+   ]
+  },
+  {
+   "id": "use-interrupt",
+   "label": "Pausing the Agent for Input",
+   "kind": "guide",
+   "group": "Human-in-the-loop",
+   "child": true,
+   "docPath": "human-in-the-loop/useInterrupt",
+   "reachable": "sidebar",
+   "status": "N/A",
+   "findings": [
+    20
+   ],
+   "notes": [
+    "Note: the page says it is not available on this framework"
+   ],
+   "block": null,
+   "links": []
+  },
+  {
+   "id": "headless-hitl",
+   "label": "Headless Interrupts",
+   "kind": "guide",
+   "group": "Human-in-the-loop",
+   "child": true,
+   "docPath": "human-in-the-loop/headless",
+   "reachable": "sidebar",
+   "status": "N/A",
+   "findings": [
+    20
+   ],
+   "notes": [
+    "Note: the page says it is not available on this framework"
+   ],
+   "block": null,
+   "links": []
+  },
+  {
+   "id": "governed-actions",
+   "label": "Governed Action Approval UI",
+   "kind": "guide",
+   "group": "Human-in-the-loop",
+   "child": true,
+   "docPath": "human-in-the-loop/governed-actions",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    21
+   ],
+   "notes": [
+    "Issue: the page shows no agent; on the quickstart agent no approval card appears, the agent just replies in text. executeSideEffect is also never defined."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-35-GovernedActions",
+     "loom": "https://www.loom.com/share/a348414b864e4d7fb8f0bb662aa4d518"
+    }
+   ]
+  },
+  {
+   "id": "webmcp",
+   "label": "WebMCP",
+   "kind": "guide",
+   "group": "Interactivity​",
+   "child": false,
+   "docPath": "webmcp",
+   "reachable": "sidebar",
+   "status": "N/A",
+   "findings": [
+    22
+   ],
+   "notes": [
+    "Note: needs the Chrome document.modelContext flag, which the test browser can't enable; searchOrders() is never defined"
+   ],
+   "block": null,
+   "links": []
+  },
+  {
+   "id": "agent-app-context",
+   "label": "Agent App Context",
+   "kind": "guide",
+   "group": "Google ADK",
+   "child": true,
+   "docPath": "agent-app-context",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [
+    23
+   ],
+   "notes": [
+    "Note: agent.py imports add_adk_fastapi_endpoint but never mounts it; added the quickstart's app lines"
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-37-AgentAppContext",
+     "loom": "https://www.loom.com/share/36d15fb4e9e34b1db34359742fe41960"
+    }
+   ]
+  },
+  {
+   "id": "subagents",
+   "label": "Sub-agents",
+   "kind": "guide",
+   "group": "Agent capabilities​",
+   "child": false,
+   "docPath": "multi-agent/subagents",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    5,
+    12
+   ],
+   "notes": [
+    "Issue: the Code tab's page.tsx imports ./subagent-activity-card, ./demo-layout, ./active-subagent and ./suggestions, none shown; it fails with Module not found. The agent also imports agents.shared_chat, never shown."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": null,
+     "clip": "ADK-react-38-Subagents",
+     "loom": "https://www.loom.com/share/18065cee84fa4b6da3b856e4d0a85aad"
+    }
+   ]
+  }
+ ]
+}
