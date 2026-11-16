@@ -239,7 +239,8 @@ export async function showFinding(
   note: string | undefined,
   fileName = `finding-${config.id}.txt`,
 ): Promise<void> {
-  await showDocEvidence(page, config, items).catch((e) => console.warn(`   ⚠️ Doc evidence step failed: ${String(e).slice(0, 120)}`));
+  // Doc evidence now runs in the doc step (registerDocEvidence in adk.actions.ts), so no doc revisit here.
+  void items;
   if (!note) return;
   mark('notepad');
   await openNotepad(page, fileName);

@@ -1,6 +1,6 @@
 # Findings — GoogleADK-React
 Open doc defects only, for https://docs.copilotkit.ai/google-adk (React). Numbers are stable IDs (code cites `FINDINGS.md #N`); gaps are removed findings.
-Stack: `@copilotkit/react-core`/`react-ui`/`runtime` 1.86.0 (declared ^1.86.0), `@ag-ui/client` 1.0.2 (doc pin), `next` 16.4.6, `react` 19.3.0, `maplibre-gl` 5.24.0 (HARNESS, #4), `google-adk` 2.14.0, `ag-ui-adk` 0.12.0, `google-genai` 2.34.0, `fastapi` 0.162.4, `uvicorn` 0.54.0. Node 26.7.0, npm 12.0.2, Python 3.13.15 (backend venv), uv 0.12.5, Windows 11 Pro. Docs: https://docs.copilotkit.ai/google-adk (snapshot 2026-11-11)
+Stack: `@copilotkit/react-core`/`react-ui`/`runtime` 1.88.0 (npm latest, CI 2026-11-16) (declared ^1.86.0), `@ag-ui/client` 1.0.2 (doc pin), `next` 16.4.6, `react` 19.3.0, `maplibre-gl` 5.24.0 (HARNESS, #4), `google-adk` 2.14.0, `ag-ui-adk` 0.12.0, `google-genai` 2.34.0, `fastapi` 0.162.4, `uvicorn` 0.54.0. Node 26.7.0, npm 12.0.2, Python 3.13.15 (backend venv), uv 0.12.5, Windows 11 Pro. Docs: https://docs.copilotkit.ai/google-adk (snapshot 2026-11-11)
 
 ## Dev blockers (seen with `npm run dev` and normal use of the page)
 
